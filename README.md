@@ -14,6 +14,11 @@ By default, the game shows 6 cards of the beach theme. The cards are shown for o
 In the <strong>easy</strong> difficulty, 8 cards are shown. In the <strong>medium</strong> difficulty, 12 cards are shown. In the <strong>hard</strong> difficulty, 16 cards are shown. The user is free to mix and match between different difficulty levels and themes.
 </p>
 
+<h4>Future Update Ideas</h4>
+<ul>
+    <li>Connect a database to store and show high scores.</li>
+</ul>
+
 <h4>Credits:</h4>
 <ul>
 <li>Idea: The game is inspired by the tutorial provided by <a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a></li>
