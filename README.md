@@ -14,8 +14,10 @@ By default, the game shows 6 cards of the beach theme. The cards are shown for o
 In the <strong>easy</strong> difficulty, 8 cards are shown. In the <strong>medium</strong> difficulty, 12 cards are shown. In the <strong>hard</strong> difficulty, 16 cards are shown. The user is free to mix and match between different difficulty levels and themes.
 </p>
 
-<h5>Credits:</h5>
-Idea: The game is inspired by the tutorial provided by <a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a> . 
-Pirate Images: <a href="http://www.freepik.com">Designed by macrovector / Freepik</a>
-Pattern Card Background: <a href="http://www.freepik.com">Designed by Harryarts / Freepik</a>
-Kitchen, Space and Beach Images Found on <a href="https://www.vecteezy.com/">Vecteezy</a>
+<h4>Credits:</h4>
+<ul>
+<li>Idea: The game is inspired by the tutorial provided by <a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a></li>
+<li>Pirate Images: <a href="http://www.freepik.com">Designed by macrovector / Freepik</a></li>
+<li>Pattern Card Background: <a href="http://www.freepik.com">Designed by Harryarts / Freepik</a></li>
+<li>Kitchen, Space and Beach Images Found on <a href="https://www.vecteezy.com/">Vecteezy</a></li>
+</ul>
