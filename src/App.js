@@ -127,23 +127,29 @@ function App() {
   return (
     <div className="App">
       <div className='menu'>
-        <h1>Memory Match</h1>
-        <button onClick={shuffleCards}>New Game</button><br/>
-        <p>Turns: {turns}</p>
+        <div>
+          <h1>Memory Match</h1>
+          <button onClick={shuffleCards}>New Game</button><br/>
+          <p>Turns: {turns}</p>
+        </div>
          <div className='options'>
-          <h4>Theme: </h4>
+          <div>
+            <h4>Theme: </h4>
             <select onChange={themeSelectChangeHandler}>
               <option value="beach">Beach</option>
               <option value="kitchen">Kitchen</option>
               <option value="space">Space</option>
               <option value="pirates">Pirates</option>
             </select>
+          </div>
+           <div>
             <h4>Difficulty: </h4>
-            <select onChange={difficultySelectChangeHandler}>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
-            </select>
+              <select onChange={difficultySelectChangeHandler}>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+           </div>
          </div>
       </div>
 
@@ -158,7 +164,6 @@ function App() {
               difficulty={imageSize} />
         ))}
       </div>
-
     </div>
   );
 }

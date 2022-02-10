@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 3fr;
 }
 
+
 .cards{
   max-width: 860px;
   margin: 40px auto;
@@ -61,3 +62,58 @@ h4{
 img.hard{
   width: 75%;
 }
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 1em;
+  }
+  .menu h1{
+    font-size: 1.5em;
+  }
+  .App {
+    display: block;
+  }
+
+  .options h4{
+    display: inline;
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 5px;
+  }
+  .options select{
+    display: inline;
+  }
+
+  .menu .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-grid{
+    grid-gap:20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 400px; 
+  font-size: 0.7em;
+}
+
+footer a {
+  text-decoration: none;
+  color: wheat;
+  cursor: pointer;
+}
+
